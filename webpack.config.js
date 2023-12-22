@@ -30,7 +30,12 @@ module.exports = {
             //     ]
             // }
           }
-        }
+        },
+        {
+          // 拡張子 css のファイル（正規表現）
+          test: /\.css$/,
+          use: ["style-loader", "css-loader"],
+        },
       ]
     },
     target:["web","es5"],
