@@ -1,0 +1,1 @@
+!function(){"use strict";new class{constructor(e){this.name=e}greet(){console.log("Hello, ".concat(this.name,"!"))}}("JIRO").greet()}();
