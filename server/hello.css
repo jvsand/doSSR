@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    background-color: #2f97d4;
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
